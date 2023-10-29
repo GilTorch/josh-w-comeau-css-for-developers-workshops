@@ -11,12 +11,15 @@ html, body {
 
 body{
     background-color: #666;
+
     font-family: Lato;
     font-size: 20px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 150%;
     text-align: left;
     color: #000;
+    letter-spacing: -0.1%;
+
     box-sizing: border-box;
     margin: 0; 
     padding: 0;
@@ -24,18 +27,17 @@ body{
 
 h1, h2 {
     font-weight: 800;
+    line-height: 120%;
 }
 
 h1 {
  font-size: 32px;
- line-height: 38px;
  margin-bottom: 48px;
 }
 
 h2 {
  background: #FFBF00;
  font-size: 24px;
- line-height: 29px;
  border-bottom: 8px solid #C90;
  padding: 16px 32px 15px 32px;
  margin-left: -34px;
@@ -47,35 +49,23 @@ section {
     margin: 0;
 }
 
-.first-section-wrapper {
-    width: 62.5%;
-    min-width: 342px;
-    text-align: left;
-    padding-top: 96px;
-    margin-left: auto; 
-    margin-right: auto;
-    padding-bottom: 64px;
+p{
+    margin-top: 16px;
 }
+
 
 .first-section{
     background-color: white;
     border-bottom: 8px#999 solid;
+    padding: 96px 24px 64px 24px;
 }
 
-
-.first-section p {
-    color: #000;
-    line-height: 150%; /* 30px */
+.first-section-inner-wrapper {
+    width: 62.5%;
+    min-width: 342px;
+    margin-left: auto; 
+    margin-right: auto;
 }
-
-.first-section p:last-of-type{
-    margin-top: 16px;
-}
-
-.second-section p:last-of-type{
-    margin-top: 16px;
-}
-
 
 .second-section{
     height: 100%;
@@ -84,13 +74,16 @@ section {
     padding-bottom: 72px;
 }
 
+.card p {
+    font-weight: 500;
+}
+
 .card{
     background-color: white;
     width: 62.5%;
     min-width: 390px;
     margin: auto;
     padding: 8px 24px 24px 24px;
-    font-weight: 500;
     border-bottom: 8px#999 solid;
 }
 
