@@ -86,7 +86,7 @@ section {
 
 .card{
     background-color: white;
-    max-width: 800px;
+    width: 62.5%;
     min-width: 390px;
     margin: auto;
     padding: 8px 24px 24px 24px;
